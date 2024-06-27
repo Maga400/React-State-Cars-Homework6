@@ -143,7 +143,7 @@ export default function Cars() {
                 <input style={{display:"block",width:"95%",padding:"10px",marginTop:"20px",borderRadius:"10px",border:"3px solid black"}} value={price} placeholder='Price' onChange={(e) => setPrice(e.target.value)}></input>
                 <input style={{display:"block",width:"95%",padding:"10px",marginTop:"20px",borderRadius:"10px",border:"3px solid black"}} value={url} placeholder='URL' onChange={(e) => setUrl(e.target.value)}></input>
                 <button style={{width:"40%",fontSize:"1.5em",padding:"10px",border:"3px solid black",borderRadius:"10px",float:"left",marginTop:"20px",backgroundColor:"blue",color:"white"}} type='submit'>Add</button>
-                <button style={{width:"40%",fontSize:"1.5em",padding:"10px",border:"3px solid black",borderRadius:"10px",marginLeft:"80px",float:"left",marginTop:"20px",backgroundColor:"blue",color:"white"}} type="button" onClick={() => UpdateCar(carId)}>UPDATE</button>
+                <button style={{width:"40%",fontSize:"1.5em",padding:"10px",border:"3px solid black",borderRadius:"10px",marginLeft:"70px",float:"left",marginTop:"20px",backgroundColor:"blue",color:"white"}} type="button" onClick={() => UpdateCar(carId)}>UPDATE</button>
             </form>
 
         </section>

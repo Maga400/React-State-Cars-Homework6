@@ -121,7 +121,7 @@ export default function Cars() {
     }
 
   return (
-    <section style={{display:"flex",justifyContent:"center",width:"50%",margin:"auto",marginTop:"3%"}}>
+    <section style={{display:"flex",justifyContent:"center",width:"50%",margin:"auto",marginTop:"3%",marginBottom:"3%"}}>
 
         <section style={{display:"block",width:"50%",border:"5px solid black",borderRadius:"10px",padding:"20px",backgroundColor:"red"}}>
             <button style={{display:"block",backgroundColor:"blue",color:"white",width:"50%",padding:"10px",fontSize:"1.5em",borderRadius:"10px",border:"3px solid black"}} type='button' onClick={() => SortCars()}>{text}</button>
